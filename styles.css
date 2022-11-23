@@ -1,0 +1,86 @@
+:root{
+	--timerRad: 0;
+}
+.coverPic{
+	height: calc(100vh - 56px);
+	background-image: url("assets/coverPic.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: inline-flex;
+}
+
+.widthFull{
+	width: 100%;
+}
+
+.socialMediaIcons{
+	justify-content: flex-end;
+}
+
+.heightFull{
+	height: 100%;
+}
+
+.titleBox{
+	width: 67%;
+	background-color: #00000033;
+	display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.width33{
+	width: 33%;
+}
+
+.timerBox{
+	background-color: #0000001a;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.titleText{
+    align-self: center;
+}
+
+.timer{
+	align-self: center;
+	height: 20%;
+	width: 50%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.time{
+	align-self: center;
+	color: white;
+	display: flex;
+
+}
+.days{
+	background-color: #90323D73;
+
+}
+.hours{
+	background-color: #d9cab373;
+
+}
+.minutes{
+	background-color: #bc803473;
+
+}
+.sec{
+	background-color: #8c7a6b73;
+}
+.info{
+	background-color: #bc8034;
+	background-image: url("assets/wave.svg");
+	padding: 10px;
+	background-repeat-y: no-repeat;
+	background-position-y: bottom;
+}
+
