@@ -96,6 +96,7 @@
 	background-size: cover;
 /*	height: 100vh;*/
 	background-color: #00000033;
+	min-height: 100vh;
 }
 
 .overlayAbout{
@@ -118,6 +119,7 @@
       bottom: 0px;
       left: 0px;
       opacity: 40%;
+	min-height:100%
 }
 
 .archiveImg{
