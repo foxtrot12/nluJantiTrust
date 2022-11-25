@@ -62,25 +62,74 @@
 
 }
 .days{
-	background-color: #90323D73;
+	background-color: #90323D99;
 
 }
 .hours{
-	background-color: #d9cab373;
+	background-color: #d9cab399;
 
 }
 .minutes{
-	background-color: #bc803473;
+	background-color: #bc803499;
 
 }
 .sec{
-	background-color: #8c7a6b73;
+	background-color: #8c7a6b99;
 }
 .info{
-	background-color: #bc8034;
+	background-color: #aa8d7f;
 	background-image: url("assets/wave.svg");
-	padding: 10px;
 	background-repeat-y: no-repeat;
 	background-position-y: bottom;
+}
+
+@media only screen and (min-width: 720px) {
+	.flexInline{
+	display: inline-flex;
+	}
+}
+
+.about{
+	background-image: url("assets/coverPic.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+/*	height: 100vh;*/
+	background-color: #00000033;
+}
+
+.overlayAbout{
+	background-color: #00000033;
+	height: 100%;
+}
+
+.padding15{
+	padding: 15px;
+	padding-bottom: 0;
+}
+
+.vc::before {    
+      content: "";
+      background-image: url(assets/scroll.jpg);
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 40%;
+}
+
+.archiveImg{
+	height: 300px;
+	padding: 10px;
+	border: solid 2px white;
+}
+
+.archive{
+	background-image: url("assets/coverPic.jpg");
+	background-repeat: repeat;
+	background-position: center;
+	background-color: #00000033;
 }
 
