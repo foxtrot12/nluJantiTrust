@@ -3,6 +3,8 @@
 }
 body{
 	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+
 }
 .coverPic{
 	height: calc(100vh - 56px);
@@ -26,15 +28,15 @@ body{
 }
 
 .titleBox{
-	width: 67%;
+	width: 64%;
 	background-color: #00000033;
 	display: flex;
     flex-direction: row;
     padding-left: 20px;
 }
 
-.width33{
-	width: 33%;
+.width36{
+	width: 36%;
 }
 
 .timerBox{
@@ -49,7 +51,8 @@ body{
 }
 
 .timer{
-	align-self: center;
+	align-self: flex-start;
+	margin-top: 200%;
 	height: 20%;
 	width: 50%;
 	text-align: center;
@@ -65,19 +68,19 @@ body{
 
 }
 .days{
-	background-color: #90323D99;
+	background-color: #90323Dbf;
 
 }
 .hours{
-	background-color: #d9cab399;
+	background-color: #d9cab3bf;
 
 }
 .minutes{
-	background-color: #bc803499;
+	background-color: #bc8034bf;
 
 }
 .sec{
-	background-color: #8c7a6b99;
+	background-color: #8c7a6bbf;
 }
 .info{
 	background-color: #aa8d7f;
@@ -100,6 +103,11 @@ body{
 		display: inline-flex;
 		width: 100%;
 	}
+
+	.timer{
+		margin-top: 40% !important;
+	}
+
 }
 
 .about{
@@ -123,13 +131,6 @@ body{
 	padding-bottom: 0;
 }
 
-.archive{
-	background-image: url("assets/coverPic.jpg");
-	background-repeat: repeat-y;
-	background-position: center;
-	background-size: cover;
-	min-height: 100vh;
-}
 .contact{
 	color: #e8e4c9;
 /*	display: inline-flex;*/
@@ -139,8 +140,30 @@ body{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
-.cardBg{
-	background-color: #ffffff4d !important;
+
+.padding40{
+	padding: 40px;
 }
 
+.faq{
+
+	background: #AEBDCA;
+	min-height: 100vh;
+}
+.reg{
+	position: absolute;
+    top: 25%;
+}
+.linkBox{
+	position: absolute;
+    bottom: 45px;
+}
+.btn-primary{
+	background-color: #8c7a6b;
+	border-color: #8c7a6b;
+}
+.btn-primary:hover{
+	background-color: #7d6d5f;
+	border-color: #7d6d5f;
+}
 
