@@ -6,6 +6,9 @@ body{
 	font-family: "Times New Roman", Times, serif;
 
 }
+.notJustify{
+	text-align: left !important;
+}
 .coverPic{
 	height: calc(100vh - 56px);
 	background-image: url("assets/coverPic.jpg");
@@ -139,6 +142,7 @@ body{
     justify-content: space-between;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    text-align: left !important;
 }
 
 .padding40{
@@ -166,4 +170,6 @@ body{
 	background-color: #7d6d5f;
 	border-color: #7d6d5f;
 }
-
+.greyLi{
+background-color: grey;
+}
