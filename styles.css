@@ -1,6 +1,9 @@
 :root{
 	--timerRad: 0;
 }
+body{
+	text-align: justify;
+}
 .coverPic{
 	height: calc(100vh - 56px);
 	background-image: url("assets/coverPic.jpg");
@@ -87,15 +90,21 @@
 	.flexInline{
 	display: inline-flex;
 	}
+
+	.add{
+	text-align: right;
+	}
+
+
+	.contactInner{
+		display: inline-flex;
+		width: 100%;
+	}
 }
 
 .about{
-	background-image: url("assets/coverPic.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-/*	height: 100vh;*/
-	background-color: #00000033;
+
+	background: #AEBDCA;
 	min-height: 100vh;
 }
 
@@ -104,34 +113,34 @@
 	height: 100%;
 }
 
+.overlayArch{
+	background-color: #00000033;
+	min-height: 100vh;
+}
+
 .padding15{
 	padding: 15px;
 	padding-bottom: 0;
 }
 
-.vc::before {    
-      content: "";
-      background-image: url(assets/scroll.jpg);
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 40%;
-	min-height:100%
-}
-
-.archiveImg{
-	height: 300px;
-	padding: 10px;
-	border: solid 2px white;
-}
-
 .archive{
 	background-image: url("assets/coverPic.jpg");
-	background-repeat: repeat;
+	background-repeat: repeat-y;
 	background-position: center;
-	background-color: #00000033;
+	background-size: cover;
+	min-height: 100vh;
 }
+.contact{
+	color: #e8e4c9;
+/*	display: inline-flex;*/
+/*	flex-direction: row;*/
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.cardBg{
+	background-color: #ffffff4d !important;
+}
+
 
