@@ -36,6 +36,7 @@ body{
 	display: flex;
     flex-direction: row;
     padding-left: 20px;
+	align-items: center;
 }
 
 .width36{
