@@ -9,13 +9,9 @@ else{
 		var carouselWithControlsEl = document.getElementById('carouselWithControls');
 
 
-		// descGalEl.classList.add("flexInline");
-		// infoEl.classList.add("col-md-6");
-		// carouselWithControlsEl.classList.add("col-md-6");
-
 	}
 
-	var countDownDate = new Date("Jan 4, 2023 00:00:00").getTime();
+	var countDownDate = new Date("Jan 4, 2023 23:59:59").getTime();
 
 	var x = setInterval(function() {
 
