@@ -23,11 +23,21 @@ else{
 	  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 	  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-	    
-	  document.getElementById("day").innerHTML = days + "<br>Days ";
-  	  document.getElementById("hour").innerHTML = hours + "<br>Hours ";
-	  document.getElementById("minute").innerHTML = minutes + "<br>Min ";
-	  document.getElementById("sec").innerHTML = seconds + "<br>Sec";
+		
+	  if(seconds < 0)
+	  {
+		document.getElementById("day").innerHTML = 00 + "<br>Days ";
+  	  	document.getElementById("hour").innerHTML = 00 + "<br>Hours ";
+	  	document.getElementById("minute").innerHTML = 00 + "<br>Min ";
+	  	document.getElementById("sec").innerHTML = 00 + "<br>Sec";
+	  }
+	  else{
+		document.getElementById("day").innerHTML = days + "<br>Days ";
+  	  	document.getElementById("hour").innerHTML = hours + "<br>Hours ";
+	  	document.getElementById("minute").innerHTML = minutes + "<br>Min ";
+	  	document.getElementById("sec").innerHTML = seconds + "<br>Sec";
+	  }
+
 
 	    
 	  if (distance < 0) {
